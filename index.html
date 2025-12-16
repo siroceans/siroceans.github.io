@@ -8,6 +8,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/cards.css">
 
     <!-- Google Fonts! -->
     <!-- Fira Code (monospaced )-->
@@ -26,9 +28,9 @@
 
     <!-- Navigation Bar -->
     <div class="navigation_bar"> 
-        <button class="nav_button"> [H] HOME </button>
+        <a href="index.html" class="nav_button"> [H] HOME </a>
         <button class="nav_button"> [B] BLOG </button>
-        <button class="nav_button"> [M] ABOUT ME </button>
+        <a href="aboutme.html" class="nav_button"> [M] ABOUT ME </a>
         <a href="https://github.com/siroceans" class="nav_button"> [G] GITHUB </a>
     </div>
 
@@ -45,7 +47,7 @@
             Numerical Analysis. However, I plan to share content on a wide variety of topics. The name of the website is inspired by the snub disphenoid, and you 
             can read more about it in the blog section. The entirety of this website is a work in progress, so don't be too pressed if something does not work yet!
         </p>
-        <img class="intro_image" src="images/home_page/bio_picture.JPG" alt="Image of mares for the bio section!"> 
+        <img class="intro_image" src="images/home_page/bio_picture_overlay.png" alt="Image of mares for the bio section!"> 
 
     </div>
 
@@ -56,9 +58,18 @@
         <!--- About Me Card -->
         <a href="https://google.com" class="card_link">
         <div class="card"> 
-            <img class="card_image" src="images/home_page/underexpansion.jpeg" alt="Image of a highly underexpanded nozzle".> 
-            <p class="card_title">[A] About Me</p>
+            <img class="card_image" src="images/home_page/underexpansion_overlay.png" alt="Image of a highly underexpanded nozzle".> 
+            <p class="card_title">[M] About Me</p>
             <p class="card_description">Learn more about me, and my personal and academic projects.</p>
+        </div>
+        </a>
+
+        <!--- Graphic Design Portfolio Card -->
+        <a href="https://google.com" class="card_link">
+        <div class="card"> 
+            <img class="card_image" src="images/home_page/graphic_card.png" alt="Image card for graphic design portfolio."> 
+            <p class="card_title">[G] My Graphic Design Portfolio</p>
+            <p class="card_description">Click here to see my graphic design portfolio!</p>
         </div>
         </a>
     </div>
